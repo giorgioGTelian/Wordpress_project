@@ -1,0 +1,80 @@
+/* General Body Styles */
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #f8f9fa;
+  color: #333;
+}
+
+/* Header Styles */
+header {
+  background-color: #343a40;
+  padding: 20px 0;
+  text-align: center;
+}
+
+header h1 {
+  color: #fff;
+  font-size: 2.5rem;
+}
+
+header h1 i {
+  color: #ff4757;
+}
+
+/* Navigation Bar Styles */
+.navbar {
+  margin-bottom: 20px;
+}
+
+.nav-link {
+  color: #f8f9fa !important;
+}
+
+.nav-link:hover {
+  color: #ff4757 !important;
+}
+
+/* Main Content Styles */
+main {
+  padding: 20px;
+}
+
+main h2 {
+  color: #343a40;
+  margin-bottom: 15px;
+}
+
+main ul {
+  list-style: none;
+  padding: 0;
+}
+
+main li {
+  margin-bottom: 15px;
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+main a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+main a:hover {
+  color: #0056b3;
+}
+
+main p {
+  color: #666;
+}
+
+/* Footer Styles */
+footer {
+  background-color: #343a40;
+  color: #f8f9fa;
+  text-align: center;
+  padding: 20px 0;
+  margin-top: 20px;
+}

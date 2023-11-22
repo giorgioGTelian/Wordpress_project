@@ -2,6 +2,8 @@
 
 This is a WordPress theme that I created to make my life easier. :tada:
 
+<h3><a href="https://giorgiogtelian.github.io/Wordpress_project/">you can visit the website here</a></h3>
+
 ## Features
 
 - Responsive design :iphone:
