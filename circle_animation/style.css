@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+}
+
+#dot {
+    width: 20px;
+    height: 20px;
+    background-color: black;
+    border-radius: 50%;
+    position: relative;
+    animation: circleAnimation 4s linear infinite;
+}
+
+@keyframes circleAnimation {
+    0% {
+        transform: translate(-50%, -50%) rotate(0deg) translateX(150px) rotate(0deg);
+         box-shadow:
+            0 0 15px violet, 
+            0 0 30px indigo, 
+            0 0 45px blue, 
+            0 0 60px green, 
+            0 0 75px yellow, 
+            0 0 90px orange, 
+            0 0 105px red;
+    }
+    100% {
+        transform: translate(-50%, -50%) rotate(360deg) translateX(150px) rotate(-360deg);
+        box-shadow:
+            0 0 15px violet, 
+            0 0 30px indigo, 
+            0 0 45px blue, 
+            0 0 60px green, 
+            0 0 75px yellow, 
+            0 0 90px orange, 
+            0 0 105px red;
+    }
+}
+@keyframes squareAnimation {
+    0% {
+        transform: translate(-50%, -50%) rotate(0deg) translateY(150px) rotate(0deg);
+        box-shadow: 0 0 15px violet, 0 0 30px indigo, 0 0 45px blue, 0 0 60px green;
+    }
+    100% {
+        transform: translate(-50%, -50%) rotate(360deg) translateY(150px) rotate(-360deg);
+        box-shadow: 0 0 15px green, 0 0 30px blue, 0 0 45px indigo, 0 0 60px violet;
+    }
+}
+
+#square {
+    width: 20px;
+    height: 20px;
+    background-color: black;
+    position: absolute;
+    border-radius: 50%;
+    top: 20%;
+    left: 50%;
+    animation: circleAnimation 4s linear infinite;
+}
