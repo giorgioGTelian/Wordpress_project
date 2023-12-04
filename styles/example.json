@@ -1,0 +1,29 @@
+
+{
+  "name": "My WordPress Theme",
+  "version": "1.0.0",
+  "description": "A custom WordPress theme",
+  "author": "Your Name",
+  "license": "GPL-2.0-or-later",
+  "tags": [
+    "wordpress",
+    "theme",
+    "custom"
+  ],
+  "dependencies": {
+    "bootstrap": "^5.0.0",
+    "jquery": "^3.6.0"
+  },
+  "scripts": {
+    "build": "gulp build",
+    "watch": "gulp watch"
+  },
+  "main": "index.php",
+  "files": [
+    "css",
+    "js",
+    "images",
+    "templates",
+    "index.php"
+  ]
+}
