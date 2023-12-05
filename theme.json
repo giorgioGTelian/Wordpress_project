@@ -1,27 +1,9 @@
-
 {
-  "name": "My WordPress Theme",
-  "version": "1.0.0",
-  "description": "A custom WordPress theme",
-  "author": "Your Name",
-  "license": "GPL-2.0-or-later",
-  "tags": [
-    "wordpress",
-    "theme"
-  ],
-  "homepage": "https://example.com",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/your-username/your-theme-repo.git"
-  },
-  "dependencies": {
-    "wordpress": ">=5.0"
-  },
-  "scripts": {
-    "build": "gulp build",
-    "watch": "gulp watch"
-  },
-  "devDependencies": {
-    "gulp": "^4.0.2"
-  }
+	"$schema": "https://schemas.wp.org/trunk/theme.json",
+	"version": 2,
+	"settings": {},
+	"styles": {},
+	"customTemplates": {},
+	"templateParts": {},
+	"patterns": []
 }
