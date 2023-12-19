@@ -1,0 +1,36 @@
+body.home .page-header-inner {
+    width: 100%;
+}
+
+.page-header .container {
+    position: initial;
+}
+
+body.home .page-header.background-image-page-header .page-header-title {
+    font-size: 160px;
+    font-weight: 900;
+    text-transform: uppercase;
+    line-height: 1.3em;
+    letter-spacing: 1px;
+}
+
+body.home .background-image-page-header .page-subheading {
+    position: absolute;
+    font-size: 88px;
+    bottom: 30px;
+    left: 50%;
+    margin-left: -87.5px;
+    z-index: 2;
+}
+
+body.home .background-image-page-header .page-subheading i {
+    padding: 0 14px;
+}
+
+body.home .background-image-page-header .page-subheading i.fa-cog {
+    color: #ddd;
+}
+
+body.home .background-image-page-header .page-subheading i.fa-bolt {
+    color: #fbfe52;
+}
