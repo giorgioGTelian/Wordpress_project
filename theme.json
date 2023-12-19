@@ -1,7 +1,20 @@
 {
 	"$schema": "https://schemas.wp.org/trunk/theme.json",
 	"version": 2,
-	"settings": {},
+	"settings": {
+		"appearanceTools": true,
+		"border": {},
+		"color": {},
+		"custom": {},
+		"dimensions": {},
+		"layout": {},
+		"position": {},
+		"shadow": {},
+		"spacing": {},
+		"typography": {},
+		"useRootPaddingAwareAlignments": false,
+		"blocks": {}
+	},
 	"styles": {},
 	"customTemplates": {},
 	"templateParts": {},
